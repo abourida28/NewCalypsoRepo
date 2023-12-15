@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #map{
+        position: relative;
+        height: 500px; 
+        width: 500px; 
+        border: 1px solid black;
+      }
+      #position{
+        display: none;
+        position: absolute ;
+        bottom: 0px;
+        height: 20px; 
+        width: 20px; 
+        background-color: red;
+      }
+    </style>
+    <script src="roslib.min.js"></script>
+</head>
+<body>
+  <h2>Press 'a' for Left, 'd' for Right, 's' for Back, 'w' for forward</h2>
+  <p id="msg"></p>
+  <div id="map">
+    <div id="position"></div>
+  </div>
+  <script src="rosBridgeJS.js"></script>
+</body>
+</html>

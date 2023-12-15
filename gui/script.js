@@ -1,4 +1,10 @@
 const deadZoneThreshold = 0.2;
+
+
+const rosbridgeHost = "ws://localhost:9090";
+const rosbridge = new ROSLIB.Ros({
+    url: rosbridgeHost,
+});
 rosbridge.on("connection", function () {
     console.log("Connected to ROSBridge.");
 });
@@ -12,10 +18,10 @@ rosbridge.on("close", function () {
     console.log("Connection to ROSBridge closed.");
 });
 
-const rosbridgeHost = "ws://localhost:9090";
-const rosbridge = new ROSLIB.Ros({
-    url: rosbridgeHost,
-});
+// const rosbridgeHost = "ws://localhost:9090";
+// const rosbridge = new ROSLIB.Ros({
+//     url: rosbridgeHost,
+// });
 
 const mapTopic = new ROSLIB.Topic({
     ros: rosbridge,
