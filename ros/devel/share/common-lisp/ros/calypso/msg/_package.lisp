@@ -3,5 +3,7 @@
   (:export
    "<JOYSTICK>"
    "JOYSTICK"
+   "<MAPMESSAGE>"
+   "MAPMESSAGE"
   ))
 

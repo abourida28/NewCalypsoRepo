@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/abourida/Desktop/newCalypsoRepo/ros/build'
+export CMAKE_PREFIX_PATH="/home/abourida/Desktop/NewCalypsoRepo/ros/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/abourida/Desktop/NewCalypsoRepo/ros/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/abourida/Desktop/NewCalypsoRepo/ros/src:$ROS_PACKAGE_PATH"

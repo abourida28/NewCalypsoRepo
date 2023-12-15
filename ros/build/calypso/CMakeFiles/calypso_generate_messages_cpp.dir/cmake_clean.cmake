@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calypso_generate_messages_cpp"
-  "/home/abourida/Desktop/newCalypsoRepo/ros/devel/include/calypso/joystick.h"
+  "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/include/calypso/mapMessage.h"
+  "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/include/calypso/joystick.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abourida/Desktop/newCalypsoRepo/ros/src
+CMAKE_SOURCE_DIR = /home/abourida/Desktop/NewCalypsoRepo/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abourida/Desktop/newCalypsoRepo/ros/build
+CMAKE_BINARY_DIR = /home/abourida/Desktop/NewCalypsoRepo/ros/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: std_msgs_generate_m
 .PHONY : calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /home/abourida/Desktop/newCalypsoRepo/ros/build/calypso && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/abourida/Desktop/newCalypsoRepo/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abourida/Desktop/newCalypsoRepo/ros/src /home/abourida/Desktop/newCalypsoRepo/ros/src/calypso /home/abourida/Desktop/newCalypsoRepo/ros/build /home/abourida/Desktop/newCalypsoRepo/ros/build/calypso /home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/abourida/Desktop/NewCalypsoRepo/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abourida/Desktop/NewCalypsoRepo/ros/src /home/abourida/Desktop/NewCalypsoRepo/ros/src/calypso /home/abourida/Desktop/NewCalypsoRepo/ros/build /home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso /home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : calypso/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 
