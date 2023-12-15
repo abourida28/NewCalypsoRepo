@@ -1,0 +1,2 @@
+calypso
+-DCATKIN_DEVEL_PREFIX=/home/abourida/Desktop/newCalypsoRepo/ros/devel -DCMAKE_INSTALL_PREFIX=/home/abourida/Desktop/newCalypsoRepo/ros/install -G Unix Makefiles
