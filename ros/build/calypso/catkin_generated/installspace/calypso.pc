@@ -1,4 +1,4 @@
-prefix=/home/abourida/Desktop/newCalypsoRepo/ros/install
+prefix=/home/abourida/Desktop/NewCalypsoRepo/ros/install
 
 Name: calypso
 Description: Description of calypso

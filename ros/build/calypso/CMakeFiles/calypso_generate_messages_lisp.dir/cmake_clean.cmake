@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calypso_generate_messages_lisp"
-  "/home/abourida/Desktop/newCalypsoRepo/ros/devel/share/common-lisp/ros/calypso/msg/joystick.lisp"
+  "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/common-lisp/ros/calypso/msg/mapMessage.lisp"
+  "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/common-lisp/ros/calypso/msg/joystick.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

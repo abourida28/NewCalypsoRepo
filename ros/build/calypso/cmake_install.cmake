@@ -1,8 +1,8 @@
-# Install script for directory: /home/abourida/Desktop/newCalypsoRepo/ros/src/calypso
+# Install script for directory: /home/abourida/Desktop/NewCalypsoRepo/ros/src/calypso
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/abourida/Desktop/newCalypsoRepo/ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/abourida/Desktop/NewCalypsoRepo/ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,56 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/msg" TYPE FILE FILES "/home/abourida/Desktop/newCalypsoRepo/ros/src/calypso/msg/joystick.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES "/home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso-msg-paths.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/abourida/Desktop/newCalypsoRepo/ros/devel/include/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/newCalypsoRepo/ros/devel/share/roseus/ros/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/newCalypsoRepo/ros/devel/share/common-lisp/ros/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/newCalypsoRepo/ros/devel/share/gennodejs/ros/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/abourida/Desktop/newCalypsoRepo/ros/devel/lib/python2.7/dist-packages/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/abourida/Desktop/newCalypsoRepo/ros/devel/lib/python2.7/dist-packages/calypso")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES "/home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso-msg-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES
-    "/home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypsoConfig.cmake"
-    "/home/abourida/Desktop/newCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypsoConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/msg" TYPE FILE FILES
+    "/home/abourida/Desktop/NewCalypsoRepo/ros/src/calypso/msg/joystick.msg"
+    "/home/abourida/Desktop/NewCalypsoRepo/ros/src/calypso/msg/mapMessage.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso" TYPE FILE FILES "/home/abourida/Desktop/newCalypsoRepo/ros/src/calypso/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso-msg-paths.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/include/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/roseus/ros/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/common-lisp/ros/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/share/gennodejs/ros/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/lib/python2.7/dist-packages/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/devel/lib/python2.7/dist-packages/calypso")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypso-msg-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso/cmake" TYPE FILE FILES
+    "/home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypsoConfig.cmake"
+    "/home/abourida/Desktop/NewCalypsoRepo/ros/build/calypso/catkin_generated/installspace/calypsoConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calypso" TYPE FILE FILES "/home/abourida/Desktop/NewCalypsoRepo/ros/src/calypso/package.xml")
 endif()
 
