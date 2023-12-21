@@ -1,8 +1,0 @@
-prefix=/home/abourida/Desktop/NewCalypsoRepo/ros/install
-
-Name: calypso
-Description: Description of calypso
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

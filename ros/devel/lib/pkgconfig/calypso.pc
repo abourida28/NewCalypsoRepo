@@ -1,8 +1,0 @@
-prefix=/home/abourida/Desktop/NewCalypsoRepo/ros/devel
-
-Name: calypso
-Description: Description of calypso
-Version: 0.0.0
-Cflags: -I/home/abourida/Desktop/NewCalypsoRepo/ros/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
